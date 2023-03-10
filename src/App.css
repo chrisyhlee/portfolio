@@ -1,38 +1,162 @@
 .App {
-  text-align: center;
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  background-color: rgb(22, 28, 30);
+  margin: 0;
+  padding: 0;
+  overflow-x: none;
+  /* overflow-y: hidden; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* body {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  overflow-x: none;
+} */
+
+.navbar {
+  /* border: solid 1px white; */
+  color: rgb(3, 238, 172);
+  text-align: right;
+  margin: 30px;
+  height: 20%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navLinks {
+  text-decoration: none;
+  display: inline;
+  padding: 25px 25px;
+  font-size: large;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+.navLinks:hover {
+  color:rgb(228, 234, 233)
+}
+
+.outerWrapper1 {
+  text-align: left;
+  margin: 200px;
+  height: 90vh;
+  /* width: 100%; */
+}
+
+.helloHeader {
+  position: relative;
+  height: 0px;
+  color: rgb(3, 238, 172);
+  font-size: 2.5vmin;
+  width: 40vw;
+  /* border: 1px solid white; */
+}
+.nameHeader {
+  color: rgb(245, 245, 225);
+  position: relative;
+  left: 15px;
+  font-size: 9vmin;
+  width: 60vw;
+  height: 5vh;
+  /* width: 200px; */
+  /* border: 1px solid white; */
+}
+
+
+.nameHeader2 {
+  color: rgb(200, 200, 188);
+  position: relative;
+  left: 40px;
+  font-size: 6.5vmin;
+  width: 50vw;
+}
+
+.welcomeDesc {
+  color: rgb(3, 238, 172);
+  width: 70vw;
+  position: relative;
+  left: 45px;
+  font-size: 2.5vmin;
+  /* width: 80vmin; */
+  /* border: 1px solid white; */
+}
+
+.aboutMe {
+  height: 100vh;
+  width: 80vw;
+}
+
+.aboutHeader {
+  color: rgb(3, 238, 172);
+  font-size: 3.5vmin;
+  /* margin: 40px; */
+  position: relative;
+  left: 18vw;
+  /* text-align: center; */
+}
+
+.aboutBody {
+  color: rgb(213, 242, 233);
+  position: relative;
+  left: 20vw;
+  font-size: 1.9vmin;
+  width: 30vw;
+}
+
+.backTopButton {
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+}
+
+.backTopStyle {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: rgb(3, 238, 172);
+  color:rgb(22, 28, 30);
+  cursor: pointer;
+  background-size: contain;
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.3);
+}
+
+.profilePic {
+  height: 300px;
+  width: 160px;
+  /* border: 1px solid white; */
+  background-size: cover;
+  border-radius: 60px;
+  box-shadow: 0px 0px 100px 25px rgb(100, 100, 96);
+}
+
+.aboutSection {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+}
+
+.techStack {
+  color: rgb(3, 238, 172);
+  position: relative;
+  left: 18vw;
+}
+
+/* ul.techList {
+  list-style-image: url();
+} */
+
+.techStackList {
+  width: 40vw;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
