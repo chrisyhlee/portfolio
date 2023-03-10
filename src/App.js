@@ -38,7 +38,7 @@ const App = () => {
       </div>
 
       <div ref={about} className='aboutMe'>
-        <h3 className='aboutHeader'>About Me</h3>
+        <h3 className='aboutHeader'>About</h3>
         <About />
       </div>
 
