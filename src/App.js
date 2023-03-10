@@ -1,9 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import { useRef } from 'react';
 import BackToTop from './components/BackToTop';
 import About from './components/About';
-import profilepicture from './assets/profilepicture.png'
 
 const App = () => {
   const about = useRef(null)
