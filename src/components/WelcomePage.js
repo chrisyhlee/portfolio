@@ -6,7 +6,7 @@ const WelcomePage = () => {
       <div className="w-screen flex justify-center mb-32">
         <div className="w-2/3 lg:w-big flex h-screen justify-center items-center">
           <div className="flex flex-col gap-10 justify-center items-center">
-            <div className="mt-28 text-left w-full">
+            <div className="mt-10 text-left w-full">
               <h4 className="text-myteal text-lg px-3">Hello! My name is</h4>
             </div>
 
