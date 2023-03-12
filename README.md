@@ -10,4 +10,5 @@ There will always be new features or projects to add as I continue to work on th
 
 ## Contact Info
 Email: leechr8393@gmail.com
-Linkedin: linkedin.com/chrisyhlee
+
+Linkedin: www.linkedin.com/chrisyhlee
