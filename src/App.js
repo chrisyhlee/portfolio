@@ -4,6 +4,7 @@ import BackToTop from "./components/BackToTop";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import WelcomePage from "./components/WelcomePage";
+import Contact from "./components/Contact";
 
 const App = () => {
   const about = useRef(null);
@@ -50,13 +51,16 @@ const App = () => {
         <About />
       </div>
 
-      <div ref={experience} className="aboutMe">
+      <div ref={experience} className="h-auto">
         <h3 className="text-myteal text-3xl font-semibold ml-48">Experience</h3>
         <Experience />
       </div>
 
-      <div ref={contact} className="aboutMe">
-        <h3 className="aboutHeader">Contact</h3>
+      <div ref={contact} className="w-full h-auto">
+        <h3 className="text-myteal text-3xl font-semibold ml-48 mb-10">Contact</h3>
+        <div className="flex flex-col w-full justify-center items-center">
+          <Contact />
+        </div>
       </div>
     </>
   );

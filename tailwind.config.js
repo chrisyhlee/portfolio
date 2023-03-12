@@ -13,6 +13,9 @@ module.exports = {
         '70p': '70%',
         '72p': '72.5%'
       },
+      maxWidth: {
+        '50r': '70%'
+      },
       colors: {
         'myteal': 'rgb(3, 238, 172)',
         'namewhite': 'rgb(245, 245, 225)',
@@ -22,7 +25,11 @@ module.exports = {
         'navgrey': 'rgb(56, 56, 56)'
       },
       boxShadow: {
-        'picshadow': '0px 0px 100px 25px rgb(100, 100, 96)'
+        'picshadow': '0px 0px 100px 25px rgb(100, 100, 96)',
+        'gifshadow': '0px 0px 100px 15px rgb(100, 100, 96)',
+      },
+      gap: {
+        'neg': '-1rem'
       }
     },
   },

@@ -1,6 +1,16 @@
 import React from "react";
 import profilepicture from "../assets/profilepicture.png";
-import { FaCheckSquare } from "react-icons/fa";
+import {
+  FaJsSquare,
+  FaReact,
+  FaHtml5,
+  FaCss3Alt,
+  FaAngular,
+} from "react-icons/fa";
+import { SiRubyonrails, SiTailwindcss, SiTypescript, SiJest } from "react-icons/si";
+import { DiRubyRough } from "react-icons/di";
+import { TbSql } from "react-icons/tb";
+import rspeclogo from "../assets/rspeclogo.svg"
 
 const About = () => {
   return (
@@ -36,24 +46,81 @@ const About = () => {
           </div>
         </div>
         <div className="w-full">
-          <h2 className="text-myteal text-left ml-48 text-lg font-semibold mt-10">Tech Stack:</h2>
+          <h2 className="text-myteal text-left ml-48 text-xl font-semibold mt-10">
+            Stack:
+          </h2>
         </div>
 
-        <div className="text-namewhite w-full text-left flex mt-5 mb-30">
-          <ul className="text-namewhite text-lg ml-48">
-            <li>
-              <span></span>
+        <div className="text-namewhite w-full text-left flex flex-col md:flex-row mt-5 mb-30">
+          <ul className="text-namewhite text-xl ml-48 mb-4 w-1 lg:w-8">
+            <li className="flex items-center gap-3">
+              <span>
+                <FaJsSquare />
+              </span>
               JavaScript
             </li>
-            <li>Ruby</li>
-            <li>SQL</li>
-            <li>HTML / CSS</li>
+            <li className="flex items-center gap-3">
+              <span>
+                <DiRubyRough />
+              </span>
+              Ruby
+            </li>
+            <li className="flex items-center gap-3">
+              <span>
+                <TbSql />
+              </span>
+              SQL
+            </li>
+            <li className="flex items-center gap-3">
+              <span>
+                <FaHtml5 />
+              </span>
+              HTML
+            </li>
           </ul>
-          <ul className="text-namewhite text-lg ml-48">
-            <li>React</li>
-            <li>Rails</li>
-            <li>JEST</li>
-            <li>RSpec</li>
+          <ul className="text-namewhite text-xl ml-48 mb-4 w-1 lg:w-8">
+            <li className="flex items-center gap-3">
+              <span>
+                <FaReact />
+              </span>
+              React
+            </li>
+            <li className="flex items-center gap-3">
+              <span>
+                <SiRubyonrails />
+              </span>
+              Rails
+            </li>
+            <li className="flex items-center gap-3"><span>
+                <SiJest />
+              </span>JEST</li>
+            <li className="flex items-center gap-3"><img className="h-5" src={rspeclogo} />RSpec</li>
+          </ul>
+          <ul className="text-namewhite text-xl ml-48 mb-4 w-1 lg:w-8">
+            <li className="flex items-center gap-3">
+              <span>
+                <FaCss3Alt />
+              </span>
+              CSS
+            </li>
+            <li className="flex items-center gap-3">
+              <span>
+                <SiTailwindcss />
+              </span>
+              TailwindCSS
+            </li>
+            <li className="flex items-center gap-3">
+              <span>
+                <SiTypescript />
+              </span>
+              TypeScript
+            </li>
+            <li className="flex items-center gap-3">
+              <span>
+                <FaAngular />
+              </span>
+              Angular
+            </li>
           </ul>
         </div>
       </div>
