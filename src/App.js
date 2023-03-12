@@ -25,19 +25,19 @@ const App = () => {
         <ul>
           <li
             onClick={() => scrollToSection(about)}
-            className="list-none inline text-lg font-semibold cursor-pointer mr-2 navLinks"
+            className="list-none inline md:text-lg font-semibold cursor-pointer mx-4 navLinks text-sm"
           >
             About
           </li>
           <li
             onClick={() => scrollToSection(experience)}
-            className="list-none inline p-1 text-lg font-semibold cursor-pointer mr-2 navLinks"
+            className="list-none inline p-1 md:text-lg font-semibold cursor-pointer mx-4 navLinks text-sm"
           >
             Experience
           </li>
           <li
             onClick={() => scrollToSection(contact)}
-            className="list-none inline p-1 text-lg font-semibold cursor-pointer mr-2 navLinks"
+            className="list-none inline p-1 md:text-lg font-semibold cursor-pointer mr-8 ml-4 navLinks text-sm"
           >
             Contact
           </li>
