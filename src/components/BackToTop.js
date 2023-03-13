@@ -24,7 +24,7 @@ const BackToTop = () => {
 
     return (
         <div>
-            {showBackTopButton && <FaAngleUp className="backTopButton backTopStyle grow" onClick={scrollTop} />}
+            {showBackTopButton && <FaAngleUp className="fixed bottom-4 right-5 h-10 w-10 rounded-full bg-myteal text-backtop cursor-pointer bg-contain animate-bounce transition duration-200 ease-in-out transform hover:opacity-60 hover:text-namewhite hover:bg-navgrey" onClick={scrollTop} />}
         </div>
     )
 }

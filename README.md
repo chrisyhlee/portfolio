@@ -17,3 +17,4 @@ Linkedin: www.linkedin.com/chrisyhlee
 - Add light/dark mode features
 - Add weather app gifs to experience when complete
 - Considering moving the contact links to the left side of the page in a column
+

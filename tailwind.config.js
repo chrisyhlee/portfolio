@@ -11,7 +11,9 @@ module.exports = {
       width: {
         'big': '60rem',
         '70p': '70%',
-        '72p': '72.5%'
+        '72p': '72.5%',
+        'line': '63%',
+        '35p': '35%'
       },
       maxWidth: {
         '50r': '70%'
@@ -19,7 +21,8 @@ module.exports = {
       colors: {
         'myteal': 'rgb(3, 238, 172)',
         'namewhite': 'rgb(245, 245, 225)',
-        'darkerwhite': 'rgb(200, 200, 188)'
+        'darkerwhite': 'rgb(200, 200, 188)',
+        'backtop': 'rgb(22. 28, 30)'
       },
       backgroundColor: {
         'navgrey': 'rgb(56, 56, 56)'
@@ -30,7 +33,9 @@ module.exports = {
       },
       gap: {
         'neg': '-1rem'
-      }
+      },
+      transitionProperty: ['hover', 'focus'],
+      scale: ['hover', 'active']
     },
   },
   plugins: [],

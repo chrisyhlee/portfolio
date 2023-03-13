@@ -6,16 +6,10 @@ import { FaReact, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { DiRubyRough } from "react-icons/di";
 import { SiRubyonrails, SiSass, SiJest } from "react-icons/si";
 import rspeclogo from "../assets/rspeclogo.svg";
-import { useNavigate } from "react-router-dom";
 
 const Experience = () => {
   const gourmandizeArr = [gHome, gAbout, gReview];
   const weatherArr = [];
-
-  const navigate = useNavigate();
-  const toGourmandize = () => {
-    navigate("https://gourmandize-e0kd.onrender.com/");
-  };
 
   return (
     <>
@@ -24,7 +18,7 @@ const Experience = () => {
           See some recent works:
         </h2>
         <section>
-          <h3 className="text-yellow-400 text-xl flex items-center gap-3 ml-48 lg:ml-32 mb-8">
+          <h3 className="text-yellow-400 text-xl flex items-center gap-3 ml-48 lg:ml-48 mb-8">
             Gourmandize
             <span className="text-namewhite text-2xl">
               <FaReact />
@@ -52,7 +46,7 @@ const Experience = () => {
           <div className="w-screen flex lg:flex-row justify-center items-center flex-col mb-10">
             {gourmandizeArr.map((image, index) => {
               return (
-                <div className="h-auto w-80 object-contain mx-10 mb-8 gap-neg shadow-gifshadow">
+                <div className="h-auto w-80 object-contain mx-5 mb-8 gap-neg shadow-gifshadow">
                   <a
                     href="https://gourmandize-e0kd.onrender.com/"
                     target="_blank"
@@ -70,7 +64,7 @@ const Experience = () => {
         </section>
 
         <section>
-          <h3 className="text-yellow-400 text-xl flex items-center gap-3 ml-48 lg:ml-32 mb-8">
+          <h3 className="text-yellow-400 text-xl flex items-center gap-3 ml-48 lg:ml-48 mb-8">
             Weather App (Coming Soon!)
             <span className="text-namewhite text-2xl">
               <FaReact />
@@ -97,7 +91,7 @@ const Experience = () => {
           <div className="w-screen flex lg:flex-row justify-center items-center flex-col mb-10">
             {gourmandizeArr.map((image, index) => {
               return (
-                <div className="h-auto w-80 object-contain mx-10 mb-8 gap-neg shadow-gifshadow">
+                <div className="h-auto w-80 object-contain mx-5 mb-8 gap-neg shadow-gifshadow">
                   <a
                     href="https://gourmandize-e0kd.onrender.com/"
                     target="_blank"
