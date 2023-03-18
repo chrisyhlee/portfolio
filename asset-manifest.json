@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/chrisyhlee.github.io/static/css/main.1359d8e9.css",
-    "main.js": "/chrisyhlee.github.io/static/js/main.a6580fcf.js",
-    "static/js/787.1ed0c42c.chunk.js": "/chrisyhlee.github.io/static/js/787.1ed0c42c.chunk.js",
-    "static/media/gourmandize-about.gif": "/chrisyhlee.github.io/static/media/gourmandize-about.5b6d10bac72968a64063.gif",
-    "static/media/profilepicture.png": "/chrisyhlee.github.io/static/media/profilepicture.93b57c04de5dd4aa82df.png",
-    "static/media/gourmandize-home.gif": "/chrisyhlee.github.io/static/media/gourmandize-home.ce8aeaf33ae7fa364eb3.gif",
-    "static/media/gourmandize-review.gif": "/chrisyhlee.github.io/static/media/gourmandize-review.552190158fdc4e4d6027.gif",
-    "static/media/rspeclogo.svg": "/chrisyhlee.github.io/static/media/rspeclogo.7ae64293e56e4a3e0bdc3e65c213bbdd.svg",
-    "index.html": "/chrisyhlee.github.io/index.html",
-    "main.1359d8e9.css.map": "/chrisyhlee.github.io/static/css/main.1359d8e9.css.map",
-    "main.a6580fcf.js.map": "/chrisyhlee.github.io/static/js/main.a6580fcf.js.map",
-    "787.1ed0c42c.chunk.js.map": "/chrisyhlee.github.io/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.26169909.css",
+    "main.js": "/static/js/main.4b366aba.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/gourmandize-about.gif": "/static/media/gourmandize-about.5b6d10bac72968a64063.gif",
+    "static/media/profilepicture.png": "/static/media/profilepicture.93b57c04de5dd4aa82df.png",
+    "static/media/gourmandize-home.gif": "/static/media/gourmandize-home.ce8aeaf33ae7fa364eb3.gif",
+    "static/media/gourmandize-review.gif": "/static/media/gourmandize-review.552190158fdc4e4d6027.gif",
+    "static/media/rspeclogo.svg": "/static/media/rspeclogo.7ae64293e56e4a3e0bdc3e65c213bbdd.svg",
+    "index.html": "/index.html",
+    "main.26169909.css.map": "/static/css/main.26169909.css.map",
+    "main.4b366aba.js.map": "/static/js/main.4b366aba.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1359d8e9.css",
-    "static/js/main.a6580fcf.js"
+    "static/css/main.26169909.css",
+    "static/js/main.4b366aba.js"
   ]
 }
