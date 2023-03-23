@@ -86,7 +86,7 @@ const App = () => {
 
       <div ref={contact} className="w-full h-auto">
         <div className="flex items-center mb-10">
-          <h3 className="text-myteal text-3xl font-semibold ml-48">Contact</h3>
+          <h3 className="text-slate-300 text-3xl font-semibold ml-48">Contact</h3>
           <hr className="border border-myteal h-0 ml-10 w-35p lg:w-line" />
         </div>
         <div className="flex flex-col w-full justify-center items-center">
