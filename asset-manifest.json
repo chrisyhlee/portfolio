@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.26169909.css",
-    "main.js": "/static/js/main.4b366aba.js",
+    "main.css": "/static/css/main.f44a8797.css",
+    "main.js": "/static/js/main.239903c4.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/gourmandize-about.gif": "/static/media/gourmandize-about.5b6d10bac72968a64063.gif",
     "static/media/profilepicture.png": "/static/media/profilepicture.93b57c04de5dd4aa82df.png",
@@ -9,12 +9,12 @@
     "static/media/gourmandize-review.gif": "/static/media/gourmandize-review.552190158fdc4e4d6027.gif",
     "static/media/rspeclogo.svg": "/static/media/rspeclogo.7ae64293e56e4a3e0bdc3e65c213bbdd.svg",
     "index.html": "/index.html",
-    "main.26169909.css.map": "/static/css/main.26169909.css.map",
-    "main.4b366aba.js.map": "/static/js/main.4b366aba.js.map",
+    "main.f44a8797.css.map": "/static/css/main.f44a8797.css.map",
+    "main.239903c4.js.map": "/static/js/main.239903c4.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.26169909.css",
-    "static/js/main.4b366aba.js"
+    "static/css/main.f44a8797.css",
+    "static/js/main.239903c4.js"
   ]
 }
